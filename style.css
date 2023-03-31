@@ -27,7 +27,7 @@ Like the parent theme, Powder, Joker is distributed under the terms of the GNU G
 	color: var(--wp--preset--color--highlight-2);
 }
 
-/* *:not(.wp-block-code) > code, */
+pre > code.hljs,
 pre.wp-block-prismatic-blocks code.hljs {
 	background-color: var(--wp--preset--color--shadow);
 }
