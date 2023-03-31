@@ -1,0 +1,51 @@
+/*
+Theme Name:  Joker
+Theme URI:   https://dwr.io
+Description: A custom child theme for DWR.IO based on Powder.
+Author:      Dan Robert
+Author URI:  https://dwr.io
+Template:    powder
+Version:     1.0.0
+Requires at least: 6.1
+Tested up to: 6.1
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: joker
+Tags: block-patterns, block-styles, custom-colors, custom-logo, custom-menu, editor-style, full-site-editing, one-column, template-editing, translation-ready, wide-blocks
+
+Joker WordPress Child Theme, (C) 2022-2023 Dan Robert.
+Like the parent theme, Powder, Joker is distributed under the terms of the GNU GPL.
+*/
+
+/**
+ * Color Adjustments
+ */
+.wp-block-site-title a:hover,
+.wp-block-navigation .wp-block-navigation-item__content.wp-block-navigation-item__content:hover,
+.site-footer a:hover {
+	color: var(--wp--preset--color--highlight-2);
+}
+
+/* *:not(.wp-block-code) > code, */
+pre.wp-block-prismatic-blocks code.hljs {
+	background-color: var(--wp--preset--color--shadow);
+}
+
+.wp-site-blocks > main {
+	min-height: calc( 100vh - 198px);
+}
+
+.logged-in .wp-site-blocks > main {
+	min-height: calc( 100vh - 230px);
+}
+
+input#wp-block-search__input-1 {
+	background: var(--wp--preset--color--background);
+	color: var(--wp--preset--color--text);
+	border-color: var(--wp--preset--color--shadow);
+}
+
+input#wp-block-search__input-1::placeholder {
+	color: var(--wp--preset--color--text);
+}
