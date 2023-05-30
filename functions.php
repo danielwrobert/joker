@@ -12,7 +12,7 @@ if ( ! function_exists( 'joker_styles' ) ) :
 	/**
 	 * Enqueue styles.
 	 *
-	 * @since Block Canvas 1.0
+	 * @since Joker 1.0
 	 *
 	 * @return void
 	 */
